@@ -66,6 +66,22 @@ footer{
 }
 
 
-@media screen and (max-width:768px)
+@media screen and (max-width:768px){
+  main{
+    width: 90%;
+    display: flex;
+    flex-direction:column;
+  }
 
+  .step-box{
+    width:100%;
+    margin-right:0;
+    margin-bottom:20px;
+  }
+
+  .step-box:last-child{
+    margin-bottom: 0;
+  }
+
+}
 
